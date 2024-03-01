@@ -109,6 +109,88 @@
     margin: 5px;
 }
 /* Single Conversion Goal above */
+.loginTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    /* width: 100%; */
+}
+.loginIcon{
+    height: 50px;
+    /* width: 100%; */
+}
+.loginText{
+    border: solid red;
+    /* width: 100%; */
+}
+/* login page Title above */
+.emailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
+.emailText{
+    display: flex;
+    border: solid orange;
+    padding-right: 72.3px;
+    /* width: 100%; */
+}
+.emailInput{
+    border: solid green;
+    /* width:max-content */
+}
+/* email container above */
+.passwordContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
+.passwordText{
+    display: flex;
+    border: solid orange;
+    padding-right: 104.5px;
+    /* width: 100%; */
+}
+.passwordInput{
+    border: solid green;
+    /* width:max-content */
+}
+/* password container above */
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
+    /* width: 100%; */
+}
+.loginPageButton{
+    margin: 5px;
+    border: solid orange;
+    /* width: 100%; */
+}
+.newUser{
+    border: solid green;
+    /* width:100%; */
+}
+.createAccount{
+    text-decoration: none;
+    color: blue;
+    border: solid black;
+    /* width: 100%; */
+}
+/* login or register */
+
+
+
+
+
 body{
     /* margin: 0; */
     /* padding: 0; */
