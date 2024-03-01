@@ -1,40 +1,104 @@
-.sellProp{
+.navBar{
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    border: solid red;
+}
+.leftNavBar{
+   width: 50%;
+}
+.navCompanyLogo{
+    display: flex;
+    height: 30px;
+}
+.rightNavBar{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.navItem1{
+    padding-right: 5%;
+}
+.navItem2{
+    padding-right: 5%;
+}
+.navItem3{
+    padding-right: 5%;
+}
+.navItem4{
+    padding-right: 5%;
+}
+.navSearchIcon{
+    height: 20px;
+}
 
+
+/* Navigation Bar above */
+.sellProp{
+    display: flex;
+    flex-direction: column;
+    border: solid blue;
+    align-items: center;
+    height: auto;
+    padding: 5px;
 }
 .mainHead{
-
+    font-size: large;
+    font-weight: bold;
 }
 .suppHead{
-
+    font-size: medium;
 }
 /* USP Unique Selling Proposition above*/
 .hero1 {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid green;
 }
 .heroImage{
-
+    height: 300px;
+    width: 100%;
 }
 .heroDescr{
+    font-size: medium;
 
 }
 /* Hero Image above */
+.benefitOf{
+    border: solid red;
+}
+.benefitFeature{
+    border:solid blue;
+    text-align: center;
+}
+/* Benefits of Offering above */
 .socialProof{
-
+    border: solid green;
 }
 .socialQuotes{
-
+    border: solid red;
+    text-align: center;
 }
 /* Social Proof above */
 .conGoal{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
 }
 .conTitle{
-
+    font-size: large;
+    font-weight: bold;
 }
 .conSubTitle{
-
+    font-size: medium;
 }
 .conButton{
-
+    
 }
 /* Single Conversion Goal above */
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+}
