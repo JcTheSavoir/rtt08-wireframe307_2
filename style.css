@@ -185,9 +185,58 @@
     border: solid black;
     /* width: 100%; */
 }
-/* login or register */
+/* login or register above*/
 
 
+
+
+.registerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    /* width: 100%; */
+}
+.registerIcon{
+    height: 50px;
+    /* width: 100%; */
+}
+.registerText{
+    border: solid red;
+    /* width: 100%; */
+}
+/* register page Title above */
+
+
+.samePasswordText{
+    display: flex;
+    border: solid orange;
+    padding-right: 45.8px;
+    /* width: 100%; */
+}
+/* password container above */
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
+    /* width: 100%; */
+}
+.registerPageButton{
+    margin: 5px;
+    border: solid orange;
+    /* width: 100%; */
+}
+.oldUser{
+    border: solid green;
+    /* width:100%; */
+}
+.goToAccount{
+    text-decoration: none;
+    color: blue;
+    border: solid black;
+    /* width: 100%; */
+/* register or login above */
 
 
 
